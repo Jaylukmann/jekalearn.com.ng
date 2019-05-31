@@ -1,0 +1,225 @@
+body {
+    font: 100%/1.4 Arial,verdana, Helvetica, sans-serif;
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    color: #000 ;
+    background-color: #b2beb5 ;
+}
+
+.header1{ 
+   background-color:#FFD700; 
+   text-align: center;
+   height:4em;
+   width:100%;
+    }
+
+.header2container{
+   display:grid;
+   grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+   background-color: #fff ;
+   height:4em; 
+   width:100%;
+    }
+    
+    #slidepix{
+     transition:all 0.8s;
+}
+    #slidepix:hover{
+     transform:scale(1.1);
+     } 
+     
+     .imageText{
+  color:#FFF; 
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+    
+    .header2divs{
+      margin-top: 7%;
+      padding-top: 5%;
+      color:green;
+      width:100%;
+    }
+
+       
+   .login{
+      border:solid;
+      width:35%;
+      height:45%;
+      border-color:green;
+      background-color:white;
+      margin-top: 6%;
+      padding-top: 5%;
+      text-align: center;
+      color:green;
+    }
+     .signup{
+      border:solid;
+      width:35%;
+      height:45%;
+      background-color:white;
+      border-color: green;
+      margin-top: 7%;
+      padding-top: 5%;
+      color:green;
+      text-align: center;
+    }
+       a {
+         text-decoration: none;
+        color:green;
+}
+      .section2images {
+        background-image: url("images/green.jpg");
+         }
+         
+.section3container{
+  display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    color:#fff;
+    background-color:green;
+  height:5em;
+  width:100%;
+}
+   .section3divs{
+    margin-top: 2%;
+    padding-top: 2%;
+    }
+
+   .section5-courses-caption{
+    text-align:center;
+    height:20em;
+    border-top: solid 0.5em;
+    border-top-color:#FFD700;
+    background-color: #000;
+    color:#fff;
+    width:100%;
+   }
+
+   .section5-courses-caption-3rd-division{
+    border:solid;
+    border-color:green;
+    color:green;
+    text-align:center;
+    width:6em;
+    height:2em;
+   }
+   .section6-courses-container{
+   display:grid;
+   grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    border-style:solid;
+   background-color:#FFF; 
+   height:15em;
+   }
+   .section6-courses-container-title{
+   color:green;
+   width:100%;
+   }
+   
+   .footer{
+  padding: 0,0;
+  background-color: #000;
+  color:#FFF;
+  height:10%;
+  text-align:center;
+  width:100%;
+}
+@media only screen and (max-width: 300px){
+    .imageText{
+  color:#FFF; 
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    .header1{ 
+   background-color:#FFD700; 
+   text-align: center;
+   height:6em;
+   width:100%;
+    }
+
+.header2container{
+   display:grid;
+      grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+   background-color:#FFF;
+   height:10em; 
+   width:100%;
+    }
+    .section3container{
+   display:grid;
+     grid-template-columns:1fr 1fr 1fr 1fr;
+    color:#fff;
+    background-color:green;
+     padding-top:5em;
+    height:15em;
+    width:100%;
+    }
+    .section5-courses-caption{
+    text-align:center;
+    height:24em;
+    border-top: solid 0.5em;
+    border-top-color:#FFD700;
+    background-color: #000;
+    color:#fff;
+    width:100%;
+   }
+    
+}
+    
+@media only screen and (max-width: 600px){
+.header2container{
+   display:grid;
+   grid-template-columns:1fr 1fr 1fr 1fr;
+   background-color:#FFF;
+   height:5em; 
+   width:100%;
+    }
+ 
+ .section3container{
+   display:grid;
+     grid-template-rows:1fr 1fr 1fr;
+    color:#fff;
+    background-color:green;
+    padding-top:2em;
+  height:15em;
+  width:100%;
+}
+}
+
+ /*@media only screen and (min-width: 600px){
+ .header2container{
+   display:grid;
+   grid-template-rows:1fr 1fr 1fr 1fr; 
+   background-color:#FFF;
+   height:10em; 
+   width:100%;
+    }
+.section3container{
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    color:#fff;
+    background-color:green;
+    padding-top:3em;
+    height:15em;
+    width:100%;
+}*/
+}
+
+ 
+
+/*/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) 
+{...} 
+*/
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px)
+{...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px)
+{...}*/*/
+*/
