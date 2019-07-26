@@ -1,5 +1,5 @@
 <?php
-$servername = "198.23.159.66";
+$servername = "wgh21.whogohost.com";
 $username = "jekalear";
 $password = "Adeyemi1!";
 $dbName   = "jekalear_learnersdata";
