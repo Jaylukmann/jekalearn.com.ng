@@ -1,225 +1,388 @@
-body {
-    font: 100%/1.4 Arial,verdana, Helvetica, sans-serif;
+@media only screen and (min-width:768px) {
+ body {
+    font: 100%/1.4 sans-serif, Arial,verdana, Helvetica;
     width:100%;
     height:100%;
-    margin: 0 auto;
-    padding: 0 auto;
-    color: #000 ;
-    background-color: #b2beb5 ;
+    margin: 0 ;
+    padding: 0 ;
+    color: #fff ;
+    font-family:'roboto';
+    font-size: 18px;
+    overflow-x: visible;
+   overflow-y: visible;
+}
+.logo{
+    padding:0;
+    margin:0;
+   }
+       
+   .name{
+       color:#fff;
+       padding-top:2.8em;
+   }
+     .home{
+        color:#fff;
+       padding-top:2.8em;
+       font-weight:300;
+   }
+   .contact{
+   padding-top:2.8em;
+   font-weight:300;
+   }
+   .about{
+       padding-top:2.8em;
+       font-weight:300;
+   }
+   .learn{
+        padding-top:2.8em;
+       font-weight:300;
+   }
+   .teach{
+        padding-top:2.8em;
+       font-weight:300;
+   }
+   .login{
+        padding-top:2.8em;
+       font-weight:300;
+   }
+      .home a:hover{
+       color:#fff;
+      }
+   header a{
+text-decoration:none;
+color:green;
+}   
+   
+header a:hover{
+text-decoration:none;
+color:#fff;
+}
+.dropbtn,.dropdown,.dropdown-content{
+    display:none;
 }
 
-.header1{ 
-   background-color:#FFD700; 
-   text-align: center;
+ .headercontainer{
+   display:flex;
+    }
+.headerinner{
+    flex:1;
+    
+}
+
+ .header{
+    float:left;
+   font-family:'Oswald';
+   background-color:#ff1493; 
    height:4em;
    width:100%;
+   color:#D46A6A;
+  font-size: 15px;
+  }
+  
+    
+    #slideimages{
+        background-image: url("images/dance.jpg");
+        border-color:#D46A6A;
+        transition:all 2s;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border: 1px solid #666;
     }
 
-.header2container{
-   display:grid;
-   grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-   background-color: #fff ;
-   height:4em; 
-   width:100%;
-    }
-    
-    #slidepix{
-     transition:all 0.8s;
-}
-    #slidepix:hover{
-     transform:scale(1.1);
-     } 
-     
-     .imageText{
-  color:#FFF; 
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-}
-    
-    .header2divs{
-      margin-top: 7%;
-      padding-top: 5%;
-      color:green;
-      width:100%;
-    }
 
-       
-   .login{
-      border:solid;
-      width:35%;
-      height:45%;
-      border-color:green;
-      background-color:white;
-      margin-top: 6%;
-      padding-top: 5%;
-      text-align: center;
-      color:green;
-    }
-     .signup{
-      border:solid;
-      width:35%;
-      height:45%;
-      background-color:white;
-      border-color: green;
-      margin-top: 7%;
-      padding-top: 5%;
-      color:green;
-      text-align: center;
-    }
        a {
          text-decoration: none;
-        color:green;
-}
-      .section2images {
-        background-image: url("images/green.jpg");
-         }
-         
-.section3container{
-  display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    color:#fff;
-    background-color:green;
-  height:5em;
-  width:100%;
-}
-   .section3divs{
-    margin-top: 2%;
-    padding-top: 2%;
-    }
+       }
 
-   .section5-courses-caption{
-    text-align:center;
-    height:20em;
-    border-top: solid 0.5em;
-    border-top-color:#FFD700;
-    background-color: #000;
+   .section3-container{
     color:#fff;
-    width:100%;
+    background-color:#55AA55;
+	height:4em;
+	width:100%;
+  	display:flex;
+  	
+   	}
+   	  .section3divs{
+   	      padding:0.5em;
+   	      flex:1;
+   	      border:1px solid;
+          border-color:#fff;
+   	      
+   	  }
+
+   .section4-courses-caption{
+   	text-align:center;
+   	height:8em;
+   	background-color:#ff1493;
+   	color:#FFF;
+   	width:100%;
    }
 
-   .section5-courses-caption-3rd-division{
-    border:solid;
-    border-color:green;
-    color:green;
-    text-align:center;
-    width:6em;
-    height:2em;
-   }
-   .section6-courses-container{
-   display:grid;
-   grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-    border-style:solid;
-   background-color:#FFF; 
-   height:15em;
-   }
-   .section6-courses-container-title{
-   color:green;
-   width:100%;
+   #linking{
+   	background-color:#ff1493;
+   	text-align:center;
+   	justify-content:center;
    }
    
+   .section6-courses-container{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr; 
+    border-style:solid;
+   background-color:#fff; 
+   height:15em;
+   color:#D46A6A;
+   font-size:30px;
+   text-align:center;
+   }
+   .section6-courses-container-title{
+   color:#55AA55;
+   width:100%;
+   text-align:center;
+   background-color:#fff;
+   font-family:'Oswald', serif;
+   font-size: 25px;
+   }
+   .section6icons{
+   width:1.5em;
+   height:1em;
+   }
+   .section6-courses-container-el{
+      font-family: 'Tangerine', serif;
+        font-size: 28px;
+   }
+    .center{
+       text-align:center;
+   }
+   .content {
+	background-color: #FFF; 
+	color: #000; 
+	font-weight: bolder;
+	text-align: center;
+	padding:1em;
+}
    .footer{
-  padding: 0,0;
+  padding: 0;
   background-color: #000;
   color:#FFF;
   height:10%;
   text-align:center;
   width:100%;
+  font-family: 'Lato', serif;
+  font-size: 18px;
+  text-shadow: 4px 4px 4px #55AA55;
 }
-@media only screen and (max-width: 300px){
-    .imageText{
-  color:#FFF; 
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
-    .header1{ 
-   background-color:#FFD700; 
-   text-align: center;
-   height:6em;
-   width:100%;
-    }
 
-.header2container{
-   display:grid;
-      grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-   background-color:#FFF;
-   height:10em; 
-   width:100%;
-    }
-    .section3container{
-   display:grid;
-     grid-template-columns:1fr 1fr 1fr 1fr;
-    color:#fff;
-    background-color:green;
-     padding-top:5em;
-    height:15em;
+
+
+/*tablet size potrait media query*/
+
+/*tablet size landscape media query*/
+
+@media only screen and (max-width: 768px){
+  body {
+    font: 100%/1.4 sans-serif, Arial,verdana, Helvetica;
     width:100%;
-    }
-    .section5-courses-caption{
-    text-align:center;
-    height:24em;
-    border-top: solid 0.5em;
-    border-top-color:#FFD700;
-    background-color: #000;
-    color:#fff;
-    width:100%;
+    height:100%;
+    margin: 0 ;
+    padding: 0 ;
+    color: #000 ;
+    font-family:'roboto';
+    font-size: 18px;
+    overflow-x: visible;
+   overflow-y: visible;
+}
+.logo{
+    width:4em;
+    height:3.5em;
    }
-    
+   .home{
+       color:#fff;
+       padding-top:2.8em;
+       font-weight:300;
+        }
+        .contact{
+       display:none;
+        }
+        .about{
+        display:none;
+        }
+        .learn{
+       display:none;
+        }
+        .teach{
+       display:none;
+        }
+        .name{
+         display:none;
+        }
+      .login{
+         display:none;
+        }
+   .home a{
+       text-decoration:none;
+       list-style:none;
+       }
+       
+          header a{
+text-decoration:none;
+color:green;
 }
-    
-@media only screen and (max-width: 600px){
-.header2container{
-   display:grid;
-   grid-template-columns:1fr 1fr 1fr 1fr;
-   background-color:#FFF;
-   height:5em; 
-   width:100%;
+      .home a:hover{;
+       color:#fff;
+      }
+   
+
+      .headercontainer{
+   display:flex;
     }
- 
- .section3container{
-   display:grid;
-     grid-template-rows:1fr 1fr 1fr;
+    
+.headerinner{
+    flex:1;
+}
+.header{
+   font-family:'Oswald';
+   background-color:#ff1493; 
+   height:4em;
+   width:100%;
+   color:#D46A6A;
+  font-size: 15px;
+  }
+    
+  /* Dropdown Button */
+  .dropdown button{
+  font-weight:bold;
+   background-color:#ff1493;
+   color:#fff;
+   padding-top:3.6em;
+}
+.dropbtn {
+/*  background-color:#6495ed;*/
+  color:#fff;
+  padding-right:30px;
+  font-size: 12px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+/*  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+ /* background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);*/
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 100px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #FF1493;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:#6495ed;
+}
+
+       a {
+         text-decoration: none;
+       }
+  .section3-container{
     color:#fff;
-    background-color:green;
-    padding-top:2em;
-  height:15em;
+    background-color:#55AA55;
+	height:18em;
+	width:100%;
+  	display:flex;
+  	flex-direction:column;
+  	
+   	}
+   	  .section3divs{
+   	      flex:1;
+   	      border:1px solid;
+          border-color:#fff;
+          padding:0.5em;
+          
+   	      
+   	  }
+
+   .section4-courses-caption{
+   	text-align:center;
+   	height:10em;
+   	color:#FFF;
+   	width:100%;
+   	background:#ff1493;
+   }
+   #linking{
+   	background-color:#ff1493;
+   	text-align:center;
+   	justify-content:center;
+   }
+   .section6-courses-container{
+   display:grid;
+   grid-template-columns:1fr 1fr;
+   border-style:solid;
+   background-color:#fff; 
+   height:25em;
+   color:#D46A6A;
+   font-size:30px;
+   text-align:center;
+   }
+   .section6-courses-container-title{
+   color:#55AA55;
+   width:100%;
+   text-align:center;
+   background-color:#fff;
+   font-family:'Oswald', serif;
+   font-size: 25px;
+   text-shadow: 1px 1px 1px #D46A6A;
+   }
+   .section6icons{
+   width:2em;
+   height:1em;
+   }
+   .section6-courses-container-el{
+      font-family: 'Tangerine', serif;
+        font-size: 28px;
+        text-shadow: 1px 1px 1px #55AA55;
+   }
+   .center{
+       text-align:center;
+   }
+   .content {
+	background-color: #FFF; 
+	color: #000; 
+	font-weight: bolder;
+	text-align: center;
+	padding:1em;
+}
+   .footer{
+  padding: 0;
+  background-color: #000;
+  color:#FFF;
+  height:10%;
+  text-align:center;
   width:100%;
+  font-family: 'Lato', serif;
+  font-size: 18px;
 }
 }
-
- /*@media only screen and (min-width: 600px){
- .header2container{
-   display:grid;
-   grid-template-rows:1fr 1fr 1fr 1fr; 
-   background-color:#FFF;
-   height:10em; 
-   width:100%;
-    }
-.section3container{
-    display:grid;
-    grid-template-rows:1fr 1fr 1fr;
-    color:#fff;
-    background-color:green;
-    padding-top:3em;
-    height:15em;
-    width:100%;
-}*/
-}
-
- 
-
-/*/* Medium devices (landscape tablets, 768px and up) */
-/*@media only screen and (min-width: 768px) 
-{...} 
-*/
-/* Large devices (laptops/desktops, 992px and up) */
-/*@media only screen and (min-width: 992px)
-{...} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/*@media only screen and (min-width: 1200px)
-{...}*/*/
-*/
+   
