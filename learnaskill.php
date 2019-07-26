@@ -1,199 +1,93 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>LEARN A SKILL</title>
-<link href="themes/2/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="themes/2/js-image-slider.js" type="text/javascript"></script>
-        <link href="generic.css" rel="stylesheet" type="text/css" />
-
-<style type="text/css">
-body {
-	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background-color: #FFF;
-	margin: 0;
-	padding: 0;
-	color: #000 ;
-	}
-h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;
-	padding-right: 3px;
-	padding-left: 3px;
-	}
- .img {
-	 width:100%;
-}
-a:link {
-	color: #00C;
-	text-decoration: underline;
-}
-a:visited {
-	text-decoration: blink;
-}
-.container {
-	width: 100%;
-	background-color: #FFF;
-	margin: 0 auto;
-}
-.header {
-	width:100%;
-	background-color: #000;
-	color: #FFF;
-	vertical-align: top;
-	height: 110px;
-	font-weight: bolder;
-}
-.subheader {
-	background-color:gold;
-	color:#000;
-	font-style: italic;
-	font-weight: bolder;
-	width:100%;
-	}
-.subheader1 {
-	background-color: #FFF;
-	color:#0C0;
-	font-weight: bolder;
-	border-bottom: double;
-	width: 100%;
-	padding: 0 10em  0 13.4em;
-
-}
-ul.nav {
-	list-style: none;
-	border-top: 1px solid #666;
-	margin-bottom: 15px;
-}
-ul.nav li {
-	border-bottom: 0px solid #666;
-}
-ul.nav a, ul.nav a:visited {
-	padding: 15px 5px 5px 15px;
-	display: block;
-	width: 150px;
-	text-decoration: underline;
-	color:#FFF;
-}
-ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
-	background-color: #00F
-	color: #00F;
-}
-.footer {
-	padding: 10px 0;
-	background-color: #000;
-	color:#FFF;
-	width:100%;
-	position: relative;
-	clear: both;
-}
-
-.fltrt { 
-	float: right;
-	margin-left: 8px;
-}
-.fltlft {
-	float: left;
-	margin-right: 8px;
-}
-.clearfloat {
-	clear:both;
-	height:0;
-	font-size: 1px;
-	line-height: 0px;
-}
-.rightcolumn{
-	float: right;
-	width: 38%;
-	height: 450px;
-	background-color:#000;
-	color:#fff;
-}
-#apDiv2 {
-	position: absolute;
-	width: 100%;
-	height: 10%;
-	z-index: 2;
-	background-color:#000;
-}
-# under{
-	position:static;
-	width:100%;
-	z-index: 3;
-	color:#FFF;
-}
-#peptalk {o
-	positioon: absolute;
-	width:100%;
-	background-color:#FFF;
-	color:#000;
-	z-index: 4;
-}
-</style>
-</head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="google-site-verification" content="s5G38samo3fMbNKq0WyBHnvYUPq_8tyqVkHsbAp_CVU" />
+    <meta name="description" content="Online Courses with Cryptocurrency Payment Option">
+    <meta name="Keywords" content="Online,Courses,Cryptocurrency,Payment, project,Jekalearn,Token,Jekalearntoken,Tokenized, Online Course Platform,Freelancing,Online Jobs,Online Study,Learning,Teaching,Jimoh Lukman Adeyemi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="Online Courses:Learn any Skill">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="author" content="Jimoh Lukman Adeyemi">
+   
+  <title>Online Courses:Learn any Skill</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" a href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel=stylesheet a href="https://fonts.googleapis.com/css?family=Rakkas Regular">
+    <link rel=stylesheet a href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+     <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="css/reset.css">
+  <link rel=stylesheet a href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <link rel =stylesheet type="text/css" a href = "index.css">
+  
+  </head>
+  
 <body>
-<div class="container">
-  <div class="header" id="sitename" align="center">
-    <h1>JEKALEARN.COM</h1>
-  <h2>... TOWARDS BRIDGING THE KNOWLEDGE GAP IN THE WORLD</h2></div>
-<div class="subheader" id="wongreen" align="left"><marquee behavior="alternate" scrollamount="10">The first platform where learners link up with educators</marquee>
-<div   class="MenuBarHorizontal" id="menubar1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="jekalearnindex.html" target="_parent">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="aboutus.html">ABOUT US</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="contactus.html">CONTACT US</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="login.html">LOG IN</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="http/www.facebook.com/jekalearn">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="http/www.twitter.com/jekalearn">twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</div> 
-</div>
-<div class="content" style= "width:15%; height:450px; background-color:#000; color:#fff; float:left;" 
-        <ul>
-      <li>&nbsp;&nbsp;<a HREF="learnaskill.html" TARGET="_parent">LEARN A SKILL</a></li><hr /></br>
-      <li>&nbsp;&nbsp;<a HREF="pay.html"target="_parent">PAY HERE</a></li><hr /></br>
-      <li>&nbsp;&nbsp;<a HREF="meet.html" TARGET="_parent">MEET OUR EDUCATORS</a></li><hr /></br>
-      <li>&nbsp;&nbsp;<a HREF="teachaskill.html" TARGET="_parent">TEACH A SKILL/SUBJECT</a></li><hr /></br>
-      <li>&nbsp;&nbsp;<a HREF="blog.html" TARGET="_parent">BLOG</a></li><hr /></br>
-      <li>&nbsp;&nbsp;<a HREF="news.html" TARGET="_parent">NEWS</a></li><hr /></br>
-      <li>&nbsp;&nbsp;<a HREF="site.html" TARGET="_parent">SITE MAP</a></li><hr/></br><hr />
-      </ul></br>
-  </div>
-           
-  <img src="images/bannerr1.jpg" id="myImage" width=47% height=450px/> <style="display:block; float:left;"/>
-            
-  <div class="rightcolumn">
-   <p><b/><span1>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&nbsp;HOW JEKALEARN WORK&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span1>
- &nbsp;&nbsp;Your readiness to teach is confirmed immediately after your registration.Be sure that teaching request will start poouring in.It is our responsibility to show who to teach while your duty is to deliver value to the learner.So,lots of social contact and money to be made with this opportunity.<br/>
-     <span1>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;NEED A TEACHER/FACILITATORS?&#8212;&#8212;&#8212;&#8212;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span1>
-    &nbsp;&nbsp;&nbsp;Jekalearn is the smartest way to get hooked up with professional teachers,facilitatorso and skillful guys who are ready to teach you a skill you have always dream of having.Just one tap and your teacher or facilitator is rioght in front of you.Dont be surprise that the teacher knows exactly what you want to learn and how to transfer the knowledge to you in a oprofessional way.An experience you will live to remember. <br/>
-     <span1>&#8212;&#8212;DO YOU HAVE A SKILoL TO TEACH OTHERS?<b/>&#8212;&#8212;</span1><br/>
-    Jekalearn is the smartest way to pass acrooss the skill you have always wanted to share with others plus you get handsomely reward.<b<hr /></div>
-  <div class="content" id="under">
-    <p style="background-color:#000; color:#fff; font-weight: bolder;" align="center"><br/>
-  Do you want to learn any skill?,<a href="learnaskill.html" target="_parent"> click here</a><br/>
-  Do you have a skill you can trade for money?<a href="teachaskill.html" target="_parent">register here</a><br/>
-  Already have an account?<a href="login.html" target="_parent">LOG IN</a></p></div>
-  
- <div class="content" id="peptalk" style="background-color:white; color:#000; font-weight:bolder" align="center" >
-  <p>&nbsp;&nbsp;"Thank you for choosing to register as a learner with Jekalearn.We really appreciate your courage and drive to pursue your dream.We are here to help you learn that skill you have always wanted to learn.Fully fill the form below and make sure you submit...Together we brigde the world knowledge gap"</div>
-  
+    <header>
+	<div class="header">
+	    
+	     <div class="headercontainer">
+	         
+	   <div><img alt="logo" src="images/jekalearnlogo1.jpg" class="headerinner logo" style="width:6em;height:4em;"/></div>
+	         
+	         <div class="headerinner name">JEKALEARN</div><br>
+	   
+	   <div class="headerinner home" id="home"><a href="index.html" target="_parent">HOME</a></div><br>
+	   
+	    <div class="headerinner contact" id="contactus"><a href="contactus.html" target="_parent">CONTACT US</a></div><br>
+	    
+    <div class="headerinner about" id="aboutus"><a href="aboutus.html" target="_parent">ABOUT US</a></div><br>
+    
+    <div class="headerinner learn" id="borrow"><a href="learnaskill.php" target="_parent">LEARN</a></div><br>
+    
+    <div class="headerinner teach" id="pay"><a href="teachaskill.php" target="_parent">TEACH</a></div><br>
+    <div class="headerinner login" id="login"><a href="login.php" target="_parent">LOGIN</a></div>
+	   
+	      
+           <div class="headerinner dropdown">
+               <button class="dropbtn"><i class="fa fa-bars barr dropbtn"></i></button> <br> 
+               <div class="navcontainer">
+   <div class="dropdown-content" id="contactus"><a href="contactus.html" target="_parent">CONTACT</a></div><br><br>
+    <div class="dropdown-content" id="aboutus"><a href="aboutus.html" target="_parent">ABOUT</a></div><br><br>
+    <div class="dropdown-content" id="borrow"><a href="learnaskill.php" target="_parent">LEARN</a></div><br><br>
+    <div class="dropdown-content" id="pay"><a href="teachaskill.php" target="_parent">TEACH</a></div><br><br>
+    <div class="dropdown-content" id="faq"><a href="login.php" target="_parent">LOGIN</a></div></div>
+      </div>
+       </div>
+       </div>
+      </header>
 
-    <form id="form" action="learnersdata.php" method="post" >
-  
-      <input type="text" name="learnersnames" placeholder="FULL NAMES:" /><br>
-    
-      <input type="text" name="learnersemail" placeholder="E-mail" /><br> 
-  
-     <input type="text" name="learnersnum" placeholder="PHONE NUMBER"/><br>
-    
-     <input type="text" name="learnersaddress" placeholder="HOME ADDRESS" /><br>
-    <input type="text" name="learnersusername" placeholder=" 
-    USERNAME" /><br>
-    
-    PASSWORD:<input type="password" name="learnerspwd" placeholder="password"/><br>
-     REPEAT PASSWORD:<input type="password" name="repeatlearnerspwd" placeholder="Repeat password"/><br>
-    
-     UPLOAD A CLEAR PICTURE:<input name="learnerspix" type="file" size="50kb"/><br>
-  
-    
-    CHOOSE YOUR SUBJECT/SKILL:<select name="skill" id="teachersskill">
+ 	<section>
+ 	<div class="section2images"><img alt="Background images slide" src="images/dance.jpg" id="slideimages" style="width:100%;height:20em;"/></div>
+ 	<br>
+
+         <form class="form content center" action="learnersdata.php" method="post" >
+         Thank you for choosing to register as a learner with Jekalearn.</div><br>
+        FULL NAMES<br>
+      <input type="text" name="learnersnames" placeholder="Enter your fullname...:" /><br>
+      E-MAIL<br>
+      <input type="text" name="learnersemail" placeholder="Enter your email..." /><br> 
+      PHONE NUMBER<br>
+     <input type="text" name="learnersnum" placeholder="Enter your phone numbers..."/><br>
+      HOME ADDRESS<br>
+     <input type="text" name="learnersaddress" placeholder="Enter your home address..." /><br>
+      USERNAME<br>
+    <input type="text" name="learnersusername" placeholder="Enter your username
+   " /><br>
+    PASSWORD<br>
+    <input type="password" name="learnerspwd" placeholder="Enter a password..."/><br>
+    REPEAT PASSWORD<br>
+     <input type="password" name="repeatlearnerspwd" placeholder="Repeat your password..."/><br>
+    UPLOAD YOUR IMAGE<br>
+   <input  placeholder=""name="learnerspix" type="file" size="50kb"/><br>
+   CHOOSE A SKILL<br>
+   <select name="skill" id="teachersskill">
+        <option>choose the skill you want to learn...</option>
       <option>Mahematics</option>
       <option>English Language</option>
       <option>French Language</option>
@@ -366,82 +260,92 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
       <option>Stock Market Analysis</option>
     </select><br>
     
-    HOW LONG DO YOU WANT TO LEARN:<select name="howlong" id="LONG">
-      <option>SOME HOURS</option>
-      <option>WITHIN A DAY</option>
-      <option>WITHIN A WEEK</option>
-      <option>WITHIN A MONTH</option>
-      <option>WITHIN A YEAR</option>
-      <option>MORE THAN A YEAR</option>
-    </select><br>
-
-      CHOOSE YOUR DURATION: <select name="duration" id="DURATION">
-        <option>HOURLY</option>
-        <option>DAILY</option>
-        <option>WEEKLY</option>
+    LEARNING PERIOD<br>
+    <select name="howlong" id="LONG">
+         <option>Choose your period of learning..</option>
+        <option>A week</option>
+        <option>A month</option>
+        <option>Within a year</option>
+        <option> A year</option>
+        <option>Two years</option>
+        <option>Three years</option>
       </select><br>
+      
+      LEARNING LIMIT<br>
+       <select name="duration" id="DURATION">
+         Choose your learning limit<br>
+            <option> (number of days in a week)</option>
+           <option>1 day</option>
+           <option>2 days</option> 
+           <option>3 days</option>
+     
+    </select><br>
+        <select name="duration" id="DURATION">
+         Choose your learning limit<br>
+         <option>(number of hours in a day)</option>
+          <option></option>
+           <option>1 hour</option>
+           <option>2hours</option> 
+           <option>3 hours</option>
+           </select><br>
+          
+   <textarea  placeholder="WRITE ABOUT YOURSELF"name="profile"  cols="30" rows=10" id="learnersprofile"></textarea><br>
 
- 
-   TELL US ABOUT YOU:<textarea name="profile"  cols="30" rows=20" id="teachersprofile"></textarea><br>
+     <button input name="submit" type="submit" value="submit" />Submit</button>
+     </div>
+   </form>
+ 	
+ 		<div class="section3-container">
+ 		<div class="section3divs"><p>Hundreds of online courses:
+ 		                  Explore various fresh topics,essays and short videos</p>
+ 		</div>
+ 		<div class="section3divs"><p>Life Time Access To Jekalearn:
+ 		                  Learn at your pace,you have a whole lifetime to do that</p>
+ 		</div>
+ 		<div class="section3divs"><p>Expert Instructors from various fields:
+ 		                  You are at liberty to choose your kind of instructor</p>
+ 		</div>
+ 	 </div>
+ 	 
+ 		<div class="section4-courses-caption"><br>
+ 		<h4> Get Personalised Recommended Courses</h4>
+ 		<p>Answer this short quiz for picks</p>
+ 		<h5 id="linking"><a href="teachaskill.php" target="_parent">Get Start</a></h5>
+ 		</div>
 
-     <button input name="submit" type="submit" value="Submit" />Submit</button>
-   </form><br>
+ 		  
+ 		  <article>
+ 		  <div class="section6-courses-container-title">TOP CATEGORIES OF COURSES</div>
+ 		  <div class="section6-courses-container">
+ 		  <div class="section6-courses-container-el"><img alt="Development icon" class="section6icons" id="development" src="images/development.png" style="3em;height:3em;"/><strong>Development</strong></div>
+ 		   <div class="section6-courses-container-el"><img alt="Leadership icon" class="section6icons" id="leader" src="images/leadership.png" style="3em;height:3em;"  /><strong>Leadership</strong></div>
+ 		    <div class="section6-courses-container-el"><img alt="Business icon" class="section6icons" id="business" src="images/money.png" style="3em;height:3em;"/><strong>Business</strong></div>
+ 		     <div class="section6-courses-container-el"><img alt="Software icon" class="section6icons" id="software" src="images/illustrator.png" style="3em;height:3em;"/><strong>Software</strong></div>
+ 		      <div class="section6-courses-container-el"><img alt="Design icon" class="section6icons" id="design" src="images/layers.png" style="3em;height:3em;"/><strong>Design</strong></div>
+ 		       <div class="section6-courses-container-el"><img alt="Marketing icon" class="section6icons" id="marketing" src="images/business-affiliate-network.png" style="3em;height:3em;"/><strong>Marketing</strong></div>
+ 		        <div class="section6-courses-container-el"> <img alt="Personal developmnent icon" class="section6icons" id="personal" src="images/female.png" style="3em;height:3em;"/><strong>Self-Development</strong></div>
+ 		         <div class="section6-courses-container-el"><img alt="Camera icon"  class="section6icons" id="camera" src="images/photo-camera.png" style="3em;height:3em;"/><strong>Photography</strong></div>
+ 		         <div class="section6-courses-container-el"><img alt="Blogging icon" class="section6icons" id="blog" src="images/blog.png" style="3em;height:3em;"/><strong>Blogging</strong></div>
+ 		          <div class="section6-courses-container-el"><img alt="Musical icon" class="section6icons" id="music" src="images/musical-note.png" style="3em;height:3em;"/><strong>Music</strong></div>
+ 		           <div class="section6-courses-container-el"><img alt="Musical icon" class="section6icons" id="music" src="images/musical-note.png" style="3em;height:3em;"/><strong>Music</strong></div>
+ 		            <div class="section6-courses-container-el"><img alt="Musical icon" class="section6icons" id="music" src="images/musical-note.png" style="3em;height:3em;"/><strong>Music</strong></div>
+ 		   </div>
+ 		   </article>
 
-<p>By <a href="index.html" title="link" target="new">proceeding</a>,I agree that jekalearn or its representatives may contact me by e-mail,phone,or sms(Including by automatic telephone dialing system)at the email address,or phone number that i have provided including for marketing purposes.I have read and understood the teacher privacy statement.</p>
-    <hr/>
-    <p align="center"> &#8212;&#8212;<mark>LEARN AT YOUR PACE<mark>&#8212;&#8212;</p>
-    <p>&nbsp; Jekalearn offers you a flexible way of learning at your convenience and at your pace.Our tutors proceed from known to unknown in systematic and interesting ways.The instruction set is learners-centered.You are our precious gem and your smooth learning is our headache.</p>
-    <p align="center">&#8212;&#8212;<mark>SET YOUR OWN LEARNING TIME<mark>&#8212;&#8212;</p>
-    <p>&nbsp;&nbsp;Set your own schedule for learning.Be your own boss by learning in a flexible environment.When you learn with jekalearn,you decide when to start learning and when to stop learning.Then you won't have to think about the quality of teachers/facilitators and their instruction.We do the screening and choose the best facilitators for you.You take your destiny into your hands by dictating your  learning schedule. </p>
-    <p align="center">&#8212;&#8212;<mark>RELATIVE SERVICE,RELATIVE RATE!<mark></p>
-    <p>&nbsp;&nbsp;Even when the standard is weekly payment,i.learn is flexible to the point that you can book for a lesson on hourly,and daily bases.The service you request for determines the rate you pay plus payment procedure is technologically driven,easy and flexible.    </p>
-    <p align="center">&#8212;&#8212;<mark>CHOOSE HOW TO PAY<mark>&#8212;&#8212;</p>
-    <p>&nbsp;&nbsp;You have various payment option ranging from bank transfer,moneygram,paypal,credit card,debit card and the rest.    </p>
-    <p align="center" ><b>&#8212;&#8212;<mark>HOW JEKALEARN WORKS<mark><b/>&#8212;&#8212;<br/>
-    <p>&nbsp; Your readiness to teach is confirmed immediately after your registration.Be sure that teaching request will start pouring in.It is our responsibility to show who to teach while your duty is to deliver value to the learner.So,lots of social contact and money to be made with this opportunity.<br/><br/>
-    <p align="center"> &#8212;&#8212;<b><mark>NEED A TEACHER/FACILITATORS?<mark><b/>&#8212;&#8212;<br/>
-    <p>&nbsp;&nbsp;Jekalearn is the smartest way to get hooked up with professional teachers,facilitators and skillful guys who are ready to teach you a skill you have always dream of having.Just one tap and your teacher or facilitator is right in front of you.Dont be surprise that the teacher knows exactly what you want to learn and how to transfer the knowledge to you in a professional way.An experience you will live to remember. <br/><br/>
-    <p align="center">&#8212;&#8212;<b><mark>RELATIVE SERVICE,RELATIVE RATE!<mark><b/><br/>
-    <p>&nbsp;&nbsp;Even when the standard is weekly payment,i.learn is flexible to the point that you can book for a lesson on hourly,and daily bases.The service you request for determines the rate you pay plus payment procedure is technologically driven,easy and flexible.   <br/> <br/>
-  <p align="center">  &#8212;&#8212;<b><mark>YOU HAVE A SKILL TO TEACH OTHERS?<mark><b/>&#8212;&#8212;<br/>
-    <p>&nbsp;&nbsp;Jekalearn is the smartest way to pass across the skill you have always wanted to share with others plus you get handsomely rewarded for doing what you absolutely love doing.i.learn is poist to help you refine your social skill and make an extrovert out of you.<br/><br/>
-   <p align="center"> &#8212;&#8212;<b<mark>>SET YOUR OWN WORKING TIME<mark><b/>&#8212;&#8212;<br/>
-   <p>&nbsp;&nbsp; Set your own schedule for working.Be your own boss by working in a flexible environment.When you teach with jekalearn,you decide when to start teaching and when to stop teaching.Then you wont have think of trading leisure for work.You take your destiny into your hands by dictating your work schedule.ilearn make you your own boss.<br/><br/>
-   <p align="center">&#8212;&#8212;<b><mark>JOB OPPORTUNITY<mark><b/>&#8212;&#8212;<br/>
-      <p>&nbsp;&nbsp;As you upload your CV,be sure of receiving request for job interview from our employment agencies through us.It is your responsibility to upload an attractive and magnetic curriculum vitae while it is our duty to get a befitting job. <br/><br/>
-    <p align="center">  &#8212;&#8212;<b><mark>HELPING CITIES<mark><b/>&#8212;&#8212;<br/>
-     <p>&nbsp;&nbsp; Localities,Suburb and cities with i.learn have more economic opportunities,fights unemployment,create job,increase the access to education and skill,expand its knowledge base,uplift its educational standard,and make its people more happy.<br/><br/>
- <p align="center">     &#8212;&#8212;<b><mark>SAFETY<mark></strong><b/>&#8212;&#8212;<br/>
-    <p>&nbsp;&nbsp;  We are out here to keep you safe during every lesson.You will always know who you are teaching and we provide you with hotlines to call in case of emergency.Never panic but keep calm and call the right number.The law enforcement agencies of your country will respond in a snap.
-    <div class="footer">
-<ul>
-      <li><a href="learnaskill.html" target="_parent">LEARN A SKILL</a></li>
-      <li><a href="pay.html"target="_parent">PAY HERE</a></li>
-      <li><a href="meet.html" target="_parent">MEET OUR EDUCATORS</a></li>
-      <li><a href="beateacher.html" target="_parent">BE A TEACHER</a></li>
-      <li><a href="blog.html" target="_parent">BLOG</a></li>
-      <li><a href="news.html" target="_parent">NEWS</a></li>
-      <li><a href="site.html" target="_parent">SITE MAP</a></li>
-      <li><a href="http/www.facebook.com/jekalearn">Facebook</a></li>
-  <li><a href="http/www.twitter.com/jekalearn">twitter</a></li>
-    </ul>
-   <p align="center"> <a href="aboutus.html" target="_parent">About</a> JEKALEARN.com&nbsp;&nbsp; |&nbsp;&nbsp;TERMS AND CONDITIONS&nbsp;&nbsp;|&nbsp;&nbsp;PRIVACY POLICY&nbsp;&nbsp;|&nbsp;&nbsp;<a href="contactus.html" target="_parent">CONTACT</a> JEKALEARN.com<br/>
-  JEKALEARN.com<sup>&reg;</sup> is a registered trademark of brainny technologies inc<sup>&#8482;</sup>.brainny&copy; 2016.All Rights Reserved.</p>
-           </div></div></div>
-           <script>
-var image=document.getElementById("myImage")
-var imageArray=["images/bannerr1.jpg","images/banner3.png","images/girls.jpg","images/img2.png","images/brain.png"];
-var imageIndex=0;
-function changeImage(){
-image.setAttribute("src",imageArray[imageIndex]);
-imageIndex++;
-if(imageIndex >= imageArray.length){
-imageIndex=0;
-}
-}
-setInterval(changeImage,500);
+           <footer>
+ 		   <div class="footer"><a href="aboutus.html" target="_parent">About</a> JEKALEARN |TERMS AND CONDITIONS|<br>
+ 		   PRIVACY POLICY|<a href="contactus.html" target="_parent">CONTACT</a> <br>JEKALEARN.com<br>
+ 		   <hr/> 
+ 		   JEKALEARN.com<sup>&reg;</sup> is a registered trademark of brainny technologies inc<sup>&trade;</sup>.brainny&copy; 2016.<br>
+ 		   All Rights Reserved.<br />
+           Site designed by Jimoh Lukman Adeyemi
+           </div>
+</footer>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="indexlearn.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-</script>
 </body>
 </html>
-
