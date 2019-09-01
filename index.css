@@ -75,7 +75,7 @@ color:#fff;
    background-color:#ff1493; 
    height:4em;
    width:100%;
-   color:#D46A6A;
+   color:#fff;
   font-size: 15px;
   }
   
@@ -96,8 +96,8 @@ color:#fff;
        }
 
    .section3-container{
-    color:#fff;
-    background-color:#55AA55;
+    color:#000;
+    background-color:#fff;
 	height:4em;
 	width:100%;
   	display:flex;
